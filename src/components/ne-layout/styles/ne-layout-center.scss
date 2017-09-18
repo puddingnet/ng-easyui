@@ -1,0 +1,10 @@
+@import "ne-layout.scss";
+@import "../../styles/size.scss";
+
+:host {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+
+  padding: $global-padding;
+}

@@ -7,7 +7,7 @@ import {NeLayoutComponent} from './ne-layout.component';
     <ng-content></ng-content>
   `,
   styleUrls: [
-    './styles/ne-layout-west.less'
+    './styles/ne-layout-west.scss'
   ]
 })
 export class NeLayoutWestComponent implements OnInit {

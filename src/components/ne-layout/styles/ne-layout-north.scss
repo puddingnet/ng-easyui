@@ -1,0 +1,9 @@
+@import "ne-layout.scss";
+@import "../../styles/size.scss";
+
+:host {
+  height: $layout-north-height;
+  padding-left: $layout-north-padding-left;
+
+  @include layout-background;
+}

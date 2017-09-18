@@ -1,0 +1,11 @@
+@import "ne-layout.scss";
+@import "../../styles/size.scss";
+
+:host {
+  height: $layout-south-height;
+  line-height: $layout-south-height;
+
+  text-align: center;
+
+  @include layout-background;
+}

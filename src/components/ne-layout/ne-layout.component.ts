@@ -6,7 +6,7 @@ import {Component, HostBinding} from '@angular/core';
     <ng-content></ng-content>
   `,
   styleUrls: [
-    `./styles/ne-layout.less`
+    `./styles/ne-layout.scss`
   ]
 })
 

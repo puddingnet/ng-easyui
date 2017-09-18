@@ -1,0 +1,14 @@
+@import "../../styles/color.scss";
+@import "../../styles/size.scss";
+
+:host {
+  display: flex;
+  flex: auto;
+
+  height: 100%;
+}
+
+@mixin layout-background {
+  background-color: $layout-background-color;
+  color: $layout-color;
+}

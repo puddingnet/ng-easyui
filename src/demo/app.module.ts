@@ -1,7 +1,7 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 
-import {NgEasyuiModule} from '../app/ng-easyui.module';
+import {NgEasyuiModule} from '../components/ng-easyui.module';
 import {AppComponent} from './app.component';
 
 @NgModule({

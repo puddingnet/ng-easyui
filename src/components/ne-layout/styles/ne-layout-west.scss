@@ -1,0 +1,18 @@
+@import "ne-layout.scss";
+@import "../../styles/size.scss";
+@import "../../styles/animation.scss";
+
+:host {
+  flex: 0 0 $layout-west-width;
+  transition: all .15s $ease-in-out;
+
+  min-width: 0;
+
+  @include layout-background;
+
+  &.ne-layout-west-collapsed {
+    flex: 0 0 0;
+  }
+}
+
+

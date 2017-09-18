@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
     <ng-content></ng-content>
   `,
   styleUrls: [
-    './styles/ne-layout-center.less'
+    './styles/ne-layout-center.scss'
   ]
 })
 export class NeLayoutCenterComponent {
